@@ -24,7 +24,7 @@ a{
 
 #wrapper{
   width: 100%;
-  max-width: 1300px;
+  /* max-width: 1300px; */
 }
 
 /* for header */
@@ -79,7 +79,7 @@ header li a:hover{
 
 header li a.icon{
   padding-left: 28px;
-  background: url(../images/lagou-app-icon.png) no-repeat 12px center; 
+  background: url(../images/lagou-app-icon.png) no-repeat 12px center;
   color: #08D7A2;
 }
 
@@ -383,7 +383,7 @@ nav li a:hover{
 
 #kind .interview{
   padding-left: 21px;
-  background: url(../images/box-unchecked.png) no-repeat left center; 
+  background: url(../images/box-unchecked.png) no-repeat left center;
 }
 
 #kind > div{
@@ -520,7 +520,7 @@ nav li a:hover{
 }
 
 .venture .type p:nth-child(2){
-  background: url(../images/icon02.png) no-repeat left 
+  background: url(../images/icon02.png) no-repeat left
   center;
 }
 
@@ -699,14 +699,14 @@ footer p, footer p a{
         -ms-flex-pack: center;
             justify-content: center;
   }
-  
+
   /* for section postcard */
    .venture{
     -webkit-flex-basis: 60%;
         -ms-flex-preferred-size: 60%;
             flex-basis: 60%;
   }
-  
+
   /* for aside */
   aside ul{
     display: -webkit-box;
@@ -720,14 +720,14 @@ footer p, footer p a{
         -ms-flex-pack: distribute;
             justify-content: space-around;
   }
-  
+
   /* for footer */
   footer > div{
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
   }
-  
+
   footer .lagou{
     -webkit-flex-basis: 100%;
         -ms-flex-preferred-size: 100%;
@@ -735,7 +735,7 @@ footer p, footer p a{
     height: 26px;
   }
 }
-  
+
 @media all and (max-width: 768px){
   /* for section kind */
   #kind dl{
@@ -749,14 +749,14 @@ footer p, footer p a{
         -ms-flex-preferred-size: 20%;
             flex-basis: 20%;
   }
-  
+
   /* for section postcard */
   .venture{
     -webkit-flex-basis: 90%;
         -ms-flex-preferred-size: 90%;
             flex-basis: 90%;
   }
-  
+
   /* for footer */
   footer .lagou{
     -webkit-flex-basis: 100%;
@@ -788,11 +788,11 @@ footer p, footer p a{
         -ms-flex-align: center;
             align-items: center;
   }
-  
+
   footer .wechat{
     right: 10px;
   }
-  
+
 }
 
 /* for mobile */
@@ -809,28 +809,28 @@ footer p, footer p a{
   header ul li:nth-child(odd) a{
     border-right: none;
   }
-  
+
   /* for nav */
   nav > a{
     -webkit-flex-basis: 100%;
         -ms-flex-preferred-size: 100%;
-            flex-basis: 100%; 
+            flex-basis: 100%;
   }
-  
+
  /* for section kind */
   #kind dl > *{
     -webkit-flex-basis: 25%;
         -ms-flex-preferred-size: 25%;
             flex-basis: 25%;
   }
-  
+
  /* for section postcard */
   .venture{
     -webkit-flex-basis: 98%;
         -ms-flex-preferred-size: 98%;
             flex-basis: 98%;
   }
-  
+
   /* for footer */
   footer ul li:last-child{
     -webkit-flex-basis: 100%;
